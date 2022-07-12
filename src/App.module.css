@@ -1,0 +1,28 @@
+.app__root {
+  color: dimgray;
+  font-family: serif;
+  text-align: center;
+}
+.app__icon {
+  color: dimgray;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+}
+.app__logout {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: dimgray;
+  margin-left: 10px;
+}
+button:disabled {
+  color: #ccc;
+  cursor: none;
+}
+h1 {
+  display: inline-block;
+}
